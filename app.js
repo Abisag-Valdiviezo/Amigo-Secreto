@@ -22,8 +22,8 @@ function agregarAmigo() {
 }
 
 function elementoLista(){
-    let listaAmigo = document.getElementById('amigo');
- 
+    let lista = document.getElementById('amigo');
+    lista.innerHTML ="";
  }
 
 function limpiarCampo(){
