@@ -10,8 +10,13 @@ function agregarAmigo() {
     } else {
         amigos.push(nombreAmigo);
         console.log(nombreAmigo);
-        console.log(amigos);
+        console.log(amigos); 
+    limpiarCampo();
     return nombreAmigo;
-   }
+}
    
+}
+
+function limpiarCampo(){
+    document.getElementById('amigo').value = '';
 }
