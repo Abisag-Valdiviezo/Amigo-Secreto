@@ -7,15 +7,24 @@ function agregarAmigo() {
     if (nombreAmigo === ""){
         alert('ERROR: POR FAVOR INSERTA UN NOMBRE')
         return;
+
     } else {
         amigos.push(nombreAmigo);
         console.log(nombreAmigo);
-        console.log(amigos); 
+        //console.log(amigos); 
+
     limpiarCampo();
-    return nombreAmigo;
+    elementoLista();
+
+    }  
+    return;
+
 }
-   
-}
+
+function elementoLista(){
+    let listaAmigo = document.getElementById('amigo');
+ 
+ }
 
 function limpiarCampo(){
     document.getElementById('amigo').value = '';
