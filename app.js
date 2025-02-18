@@ -4,5 +4,11 @@ let amigos=[];
 
 function agregarAmigo() {
     let nombreAmigo = document.getElementById('amigo').value;
+    if (nombreAmigo === ""){
+        alert('ERROR: POR FAVOR INSERTA UN NOMBRE')
+        return;
+    }
+    
     console.log(nombreAmigo);
+
 }
