@@ -34,6 +34,13 @@ function actualizarLista(){
 
  }
 
+ function sortearAmigo(){
+
+    if(amigos.length === 0){
+        alert('ERROR: NO HAY AMIGOS AMIGOS DISPONIBLES PARA SORTEAR');
+    }
+ }
+
 function limpiarCampo(){
     document.getElementById('amigo').value = '';
 }
