@@ -11,10 +11,10 @@ function agregarAmigo() {
     }  if (amigos.includes(nombreAmigo)) {
         alert('ERROR: ESTE NOMBRE YA FUE INSERTADO');
         return;
-        
+
     } else {
         amigos.push(nombreAmigo);
-        console.log(nombreAmigo);
+       // console.log(nombreAmigo);
         //console.log(amigos); 
 
     limpiarCampo();
@@ -46,10 +46,10 @@ function actualizarLista(){
 
     let indiceAleatorio = Math.floor(Math.random()*amigos.length);
     let amigoSorteado = amigos[indiceAleatorio];
-    console.log(amigoSorteado);
+    //console.log(amigoSorteado);
     let resultadoAmigo = document.getElementById('resultado');
     resultadoAmigo.innerHTML = `El amigo secreto sorteado es: ${amigoSorteado}`;
-
+    let ocultarlista = document.getElementById('listaAmigos').style.display = "none";
  }
 
 function limpiarCampo(){
