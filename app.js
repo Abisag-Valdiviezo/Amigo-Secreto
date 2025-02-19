@@ -38,7 +38,10 @@ function actualizarLista(){
 
     if(amigos.length === 0){
         alert('ERROR: NO HAY AMIGOS AMIGOS DISPONIBLES PARA SORTEAR');
+        return;
     }
+
+    let indiceAleatorio = Math.floor(Math.random()*amigos.length);
  }
 
 function limpiarCampo(){
