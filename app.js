@@ -5,9 +5,13 @@ let amigos=[];
 function agregarAmigo() {
     let nombreAmigo = document.getElementById('amigo').value;
     if (nombreAmigo === ""){
-        alert('ERROR: POR FAVOR INSERTA UN NOMBRE')
+        alert('ERROR: POR FAVOR INSERTA UN NOMBRE');
         return;
 
+    }  if (amigos.includes(nombreAmigo)) {
+        alert('ERROR: ESTE NOMBRE YA FUE INSERTADO');
+        return;
+        
     } else {
         amigos.push(nombreAmigo);
         console.log(nombreAmigo);
@@ -30,7 +34,6 @@ function actualizarLista(){
         li.textContent = amigos[i];
         lista.appendChild(li);
     }
-
 
  }
 
