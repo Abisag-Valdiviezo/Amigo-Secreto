@@ -22,7 +22,7 @@ function agregarAmigo() {
 }
 
 function actualizarLista(){
-    let lista = document.getElementById("listaAmigos");
+    let lista = document.getElementById('listaAmigos');
     lista.innerHTML ="";
 
     for(let i=0; i <amigos.length; i++){
@@ -44,6 +44,9 @@ function actualizarLista(){
     let indiceAleatorio = Math.floor(Math.random()*amigos.length);
     let amigoSorteado = amigos[indiceAleatorio];
     console.log(amigoSorteado);
+    let resultadoAmigo = document.getElementById('resultado');
+    resultadoAmigo.innerHTML = `El amigo secreto sorteado es: ${amigoSorteado}`;
+
  }
 
 function limpiarCampo(){
