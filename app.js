@@ -42,6 +42,8 @@ function actualizarLista(){
     }
 
     let indiceAleatorio = Math.floor(Math.random()*amigos.length);
+    let amigoSorteado = amigos[indiceAleatorio];
+    console.log(amigoSorteado);
  }
 
 function limpiarCampo(){
