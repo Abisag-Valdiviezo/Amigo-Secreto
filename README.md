@@ -56,7 +56,7 @@
 ### Versión Web:
 - Abre el archivo `index.html` en tu navegador.
 - Ingresa los nombres de los jugadores.
-- Haz clic en "Realizar sorteo" y obtén la asignación de amigos secretos.
+- Haz clic en "Sortear Amigo" y obtén la asignación de amigos secretos.
 
 ### Versión Consola:
 1. Ejecuta `node app.js` desde la terminal.
