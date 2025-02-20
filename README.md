@@ -18,7 +18,7 @@
 1. Clona el repositorio:
 
     ```bash
-    git clone https://github.com/tu_usuario/amigo-secreto.git
+    git clone https://github.com/Abisag-valdiviezo/amigo-secreto.git
     ```
 
 2. Navega a la carpeta del proyecto:
